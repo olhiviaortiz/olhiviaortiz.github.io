@@ -192,6 +192,17 @@ pre{
     margin-top: 47%;
 }
 
+.volador{
+	width: 175px;
+	height: auto;
+	-webkit-transform: translateZ(-0.9px) scale(1.5);
+	transform: translateZ(-0.9px) scale(1.5);
+	position: absolute;
+	top: 47%;
+	margin-left: 78%;
+    margin-top: 47%;
+}
+
 .habilidades{
 	width: 282px;
 	height: auto;

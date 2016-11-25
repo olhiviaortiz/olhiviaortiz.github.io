@@ -292,24 +292,13 @@ pre{
 }
 
 .contactoPlaneta{
-	width: 1024px;
+	width: 711px;
 	height: auto;
-	-webkit-transform: translateZ(-0.1px) scale(1.7);
-	transform: translateZ(-0.1px) scale(1.7);
+	-webkit-transform: translateZ(-0.3px) scale(1.7);
+	transform: translateZ(-0.3px) scale(1.7);
 	position: absolute;
-	top: 100%;
-	margin-left: 23%;
-    margin-top: 41%;
-}
-
-.datosContacto{
-	width: 389px;
-	height: auto;
-	-webkit-transform: translateZ(-0.1px) scale(1);
-	transform: translateZ(-0.1px) scale(1);
-	position: absolute;
-	top: 107%;
-	margin-left: 23%;
+	top: 95%;
+	margin-left: 0%;
     margin-top: 41%;
 }
 
@@ -363,7 +352,7 @@ pre{
 	-webkit-transform: translateZ(-0.01px) scale(1.5);
 	transform: translateZ(-0.01px) scale(1.5);
 	position: absolute;
-	top: 117%;
-	text-align: center;
+	top: 109%;
+	margin-left: 85%;
 	width: 100%;
 }

@@ -48,65 +48,75 @@ h1{
 	-webkit-transform: translateZ(-0.5px) scale(1.5);
 	transform: translateZ(-0.5px) scale(1.5);
 	position: absolute;
-	top: -2%;
-	font-family: 'Yellowtail', cursive;
-	font-size: 5em;
+	top: -1%;
+	font-family: 'Fredoka One', cursive;
+	font-size: 70px;
 	padding-left: 51%;
 	width: 100%;
 	color: #E6E6E6;
+	text-decoration: underline;
 }
 
 h2{
-	font-family: 'Yellowtail', cursive;
+	font-family: 'Pacifico', cursive;
 	font-size: 2.5em;
 	width: 100%;
-	color: #FFB74D;
+	color: #48E6D5;
 }
 
 p{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Hind', sans-serif;
 	color: #B0BEC5;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 5%;
 }
 
 pre{
-	font-family: 'Dosis', sans-serif;
-	font-size: 1.2em;
+	font-family: 'Hind', sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
 	color: white;
-	line-height: 115%;
+	line-height: 130%;
 }
  /* estilos de información especifica de contenido e información*/
 
  /*Datos superiores*/
 .curriculum{
 	margin-top: 2%;
-	font-size: 2em;
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
+	font-weight: bold;
 }
 
 .fecha-update{
 	color: #9597A0;
 	font-size: 1em;
+	font-family: 'Hind', sans-serif;
 }
 
 /*Fecha en la que se tomaron los cursos y talleres*/
 .fecha{
 	color: #9597A0;
 	font-size: 1em;
-	margin-top: -3%;
+	margin-top: -2%;
+	font-family: 'Hind', sans-serif;
+	font-weight: normal;
 }
 
 /*Estilos de Experiencia laboral*/
 .empresa{
-	color: #FFECB3;
+	color: #118159;
 	font-size: 1.3em;
 	margin-top: 5%;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .fecha-laboral{
 	color: #9597A0;
 	font-size: 1em;
 	margin-top: -1%;
+	font-family: 'Hind', sans-serif;
+	font-weight: normal;
 }
 
 .contenedor{
@@ -179,6 +189,7 @@ pre{
 	top: 25%;
 	margin-left: 17%;
     margin-top: 47%;
+    opacity: 0.3;
 }
 
 .ondas{
@@ -356,3 +367,6 @@ pre{
 	margin-left: 85%;
 	width: 100%;
 }
+
+/* Pantalla chica */
+@media screen and (max-width: 779px)
